@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --opts .mocharc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/darrenlucas8678/alexa-faa-info/issues"
   },
-  "homepage": "https://github.com/darrenlucas8678/alexa-faa-info#readme"
+  "homepage": "https://github.com/darrenlucas8678/alexa-faa-info#readme",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "lodash": "^4.16.2",
+    "mocha": "^3.1.0",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
 }
